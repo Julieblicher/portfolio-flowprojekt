@@ -52,7 +52,7 @@ a:hover {
 
 }
 	figure {
-	position: absolute;
+	position: fixed;
     left: 425px;
     top: -10px;
     z-index: -1;
@@ -61,7 +61,6 @@ img {
 	width: 600px;
     height: 750px;
 }
-
 
 
 
