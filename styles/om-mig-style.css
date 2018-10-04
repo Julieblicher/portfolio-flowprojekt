@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+body {
+	font-family: 'Nixie One', cursive;
+	color: white;
+	background-color: #E4F2F4; 
+}
+h1 {
+	font-family: 'Nixie One', cursive;
+	font-size: 2000;
+	letter-spacing: 3px;
+	color: #5B5B5B;
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -75px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 30px 0 30px 0;
+    width: 250px;
+	height: 400px;
+	background: #A7D6DE;
+	position: fixed;
+	top: 30%;
+    margin-top: -100px;	
+	text-align: center;
+} 
+
+li a {
+	color: #5B5B5B;
+	text-decoration: none;
+	line-height: 4.95em;
+    padding: 0 80px 0 80px;
+	font-size: 15pt;
+}
+
+a:hover {
+	 background: #5B5B5B;
+	color: white;
+	opacity: 0.5;
+	display: block;
+}
+
+#main {
+	width: 607px; 
+	height: 200px; 
+	background: #A7D6DE;
+	list-style-type: none;
+position: absolute;
+    left: 350px;
+    top: 177px;
+    z-index: -1;
+ 
+}
+p {
+	color: #5B5B5B;
+	font-size: 12pt;
+	line-height: 2em;
+	 margin: 10px;
+    padding: 5px 10px 5px 10px;
+}
+#main2 {
+	width: 595px; 
+	height: 180px; 
+	background: #A7D6DE;
+	list-style-type: none;
+position: absolute;
+    left: 350px;
+    top: 400px;
+    z-index: -1;
+	padding-left: 15px;
+	padding-top: 10px;
+		 
+}
+ul2 {
+	color: #5B5B5B;
+	font-size: 15pt;
+	line-height: 2.5em;
+
+}
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+	color: #5B5B5B;
+	font-size: 30pt;
+}
+figure {
+	position: absolute;
+    left: 800px;
+    top: 60px;
+    z-index: -1;
+}
+img {
+	width: 500px;
+    height: 650px;
+}
